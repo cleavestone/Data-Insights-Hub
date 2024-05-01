@@ -160,3 +160,5 @@ The FIFA 2022 World Cup captured the attention of millions around the globe, and
 ## Objectives
 1. Sentiment Classification: Accurately categorize tweets as positive, negative, or neutral.
 2. Model Performance: Build and compare multiple machine learning models to determine the most effective approach.
+
+![](https://github.com/cleavestone/Data-Insights-Hub/blob/main/image_dir/fifa23.png)
