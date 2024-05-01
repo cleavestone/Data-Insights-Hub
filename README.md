@@ -1,5 +1,5 @@
 # Data-Insights-Hub
-## [Forecasting Amazon Stock Prices with LSTM Neural Networks: A Deep Learning Approach][https://github.com/cleavestone/Data-Analytics/blob/main/AMAZON_STOCK_.ipynb]
+## [Forecasting Amazon Stock Prices with LSTM Neural Networks: A Deep Learning Approach](https://github.com/cleavestone/Data-Analytics/blob/main/AMAZON_STOCK_.ipynb)
 
 ## Overview
 This project aims to forecast the closing stock prices of Amazon using LSTM (Long Short-Term Memory) neural networks. The LSTM model is a type of recurrent neural network (RNN) capable of learning long-term dependencies, making it suitable for time series forecasting tasks.
@@ -30,4 +30,4 @@ TensorFlow/Keras
     
 ## Results
 The LSTM model achieves an RMSE of approximately 86.13, indicating its ability to make accurate predictions.
-!(image.jpg)
+!(https://github.com/cleavestone/Data-Insights-Hub/blob/main/image_dir/amazon.png)
