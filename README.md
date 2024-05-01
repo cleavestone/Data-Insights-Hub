@@ -192,3 +192,33 @@ This project aims to collect and analyze job listings data from BrighterMonday, 
 ## Conclusion
 This project demonstrates the process of web scraping job listings data from BrighterMonday and analyzing it to gain insights into the job market trends in Kenya. The findings can be valuable for job seekers, employers, and policymakers to make informed decisions.
 ![](https://github.com/cleavestone/Data-Insights-Hub/blob/main/image_dir/industry.png)
+
+## [E-commerce Database Documentation](https://github.com/cleavestone/Data-Analytics/blob/main/ECOMMERCE%20PROJECT.sql)
+The E-commerce Database is designed to store and manage data related to customers, orders, products, and reviews for an e-commerce platform. This documentation provides an overview of the database schema, data population, and a set of SQL queries for analyzing and extracting valuable insights from the data.
+
+## Database Schema
+Tables
+1. Customers: Stores information about customers.
+Columns: customer_id, first_name, last_name, email, gender, country
+2. Orders: Records details of orders placed by customers.
+Columns: order_id, customer_id, order_date, status, shipping_country, shipping_speed, discount, total
+3. Products: Contains information about available products.
+Columns: product_id, product_name, description, price, stock_quantity
+4. Order_Items: Stores the relationship between orders and products.
+Columns: order_id, product_id, quantity, price
+5. Reviews: Stores customer reviews for products.
+Columns: review_id, customer_id, product_id, rating, review_text, review_date
+
+## Relationships
+1. Customers and Orders: One-to-Many relationship (One customer can place multiple orders)
+2. Orders and Order_Items: One-to-Many relationship (One order can contain multiple items)
+3. Customers and Reviews: One-to-Many relationship (One customer can write multiple reviews)
+   
+## Data Population
+The database contains sample data to demonstrate its functionality. Data has been inserted into the tables as follows:
+
+1. Customers: 16 records
+2. Orders: 36 records
+3. Products: 16 records
+4. Order_Items: 36 records
+5. Reviews: 10 records
