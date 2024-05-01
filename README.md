@@ -73,25 +73,25 @@ Python Libraries
 Dataset source: [](https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers/download?datasetVersionNumber=1)
 
 
-[Loan Eligibility Prediction Project](https://github.com/cleavestone/Data-Analytics/blob/main/Loans%20application%20.ipynb)
+## [Loan Eligibility Prediction Project](https://github.com/cleavestone/Data-Analytics/blob/main/Loans%20application%20.ipynb)
 
 ## Problem Statement
 Dream Housing Finance company wants to automate the loan eligibility process based on customer details such as Gender, Marital Status, Education, Number of Dependents, Income, Loan Amount, Credit History, and others. The objective is to predict whether a customer is eligible for a loan amount or not.
 
 ## Dataset
 We utilized a dataset provided by Dream Housing Finance company, containing customer details such as:
-Loan_ID
-Gender
-Married
-Dependents
-Education
-Self_Employed
-ApplicantIncome
-CoapplicantIncome
-LoanAmount
-Loan_Amount_Term
-Credit_History
-Property_Area
+Loan_ID,
+Gender,
+Married,
+Dependents,
+Education,
+Self_Employed,
+ApplicantIncome,
+CoapplicantIncome,
+LoanAmount,
+Loan_Amount_Term,
+Credit_History,
+Property_Area,
 Loan_Status
 
 ## Exploratory Data Analysis (EDA)
@@ -137,6 +137,7 @@ Testing Accuracy: 76.92%
 
 ## Cross-Validation
 Due to limited data, all models exhibited some degree of overfitting. To obtain a more accurate score for the XGBoost model, we utilized cross-validation technique. The mean accuracy obtained through cross-validation was approximately 88.50%.
+[Dataset source](https://github.com/cleavestone/Data-Analytics/blob/main/train_ctrUa4K.csv)
 
 ## Conclusion
 In conclusion, the XGBoost model showed the highest performance among the models tested, with an accuracy of 86.98% on the test set. However, further optimization and fine-tuning of the models could potentially improve their performance.
