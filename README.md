@@ -222,3 +222,8 @@ The database contains sample data to demonstrate its functionality. Data has bee
 3. Products: 16 records
 4. Order_Items: 36 records
 5. Reviews: 10 records
+
+ [Sales Data Analysis with Power BI](https://github.com/cleavestone/Data-Analytics/blob/main/ECOMMERCE%20PROJECT.sql)
+
+In this project, I utilized Power BI to delve deep into sales data, extracting valuable insights and presenting them through intuitive visualizations. The goal was to uncover significant trends, pinpoint top-performing products and categories, and visualize revenue patterns for informed decision-making.
+![]()
