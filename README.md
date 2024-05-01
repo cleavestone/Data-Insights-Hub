@@ -31,6 +31,8 @@ Python Libraries:
 The LSTM model achieves an RMSE of approximately 86.13, indicating its ability to make accurate predictions.
 ![](https://github.com/cleavestone/Data-Insights-Hub/blob/main/image_dir/amazon.png)
 
+
+
 ## [Predicting Customer Churn in Banking](https://github.com/cleavestone/Data-Analytics/blob/main/Credit_Card_Customer_Churn.ipynb)
 Introduction
 In today's dynamic banking sector, customer retention is paramount. Banks are increasingly seeking proactive solutions to prevent churn and maintain robust customer relationships. Our goal is to forecast customer churn by leveraging a dataset sourced from Kaggle, containing information from 10,000 customers. This dataset includes crucial factors such as age, salary, marital status, credit card limit, and card category. By harnessing the power of machine learning, we aim to provide insights and construct a predictive model to help banks anticipate churn and implement preemptive measures.
