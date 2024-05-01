@@ -30,3 +30,42 @@ Python Libraries:
 ## Results
 The LSTM model achieves an RMSE of approximately 86.13, indicating its ability to make accurate predictions.
 ![](https://github.com/cleavestone/Data-Insights-Hub/blob/main/image_dir/amazon.png)
+
+
+Introduction
+In today's dynamic banking sector, customer retention is paramount. Banks are increasingly seeking proactive solutions to prevent churn and maintain robust customer relationships. Our goal is to forecast customer churn by leveraging a dataset sourced from Kaggle, containing information from 10,000 customers. This dataset includes crucial factors such as age, salary, marital status, credit card limit, and card category. By harnessing the power of machine learning, we aim to provide insights and construct a predictive model to help banks anticipate churn and implement preemptive measures.
+
+## Dependencies
+Python Libraries
+1. Pandas
+2. NumPy
+3. Seaborn
+4. Matplotlib
+   
+## Data Exploration
+1. Loaded and inspected the dataset.
+2. Explored data dimensions and columns.
+3. Checked for missing values and duplicates.
+4. Conducted descriptive statistics and visualized data distributions.
+5. Explored relationships between variables using correlation matrices and visualizations.
+   
+## Data Preprocessing
+1. Converted categorical variables to numerical using Label Encoding and One-Hot Encoding.
+2. Performed train-test split to prepare data for modeling.
+   
+## Building the Model
+1. Employed a Random Forest Classifier to predict customer churn.
+2. Evaluated model performance using accuracy score and confusion matrix.
+3. Identified key features influencing churn using feature importance analysis.
+   
+## Results and Insights
+1. Achieved an accuracy score of approximately 96.15% in predicting customer churn.
+2. Key features influencing churn include total transaction amount, total transaction count, and total revolving balance.
+3. Provided demographic analysis for churned customers to facilitate targeted retention strategies.
+   
+## Next Steps
+1. Improve model performance through hyperparameter tuning and feature engineering.
+2. Explore advanced machine learning techniques such as neural networks for enhanced predictive capabilities.
+3. Deploy the model in a production environment for real-time churn prediction.
+![](image.jpg)
+Dataset source: [](https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers/download?datasetVersionNumber=1)
