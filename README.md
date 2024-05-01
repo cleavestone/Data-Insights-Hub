@@ -8,13 +8,12 @@ This project aims to forecast the closing stock prices of Amazon using LSTM (Lon
 The dataset used in this project was obtained from kaggle and  contains historical stock data of Amazon from 2005 to 2019. It includes various features such as opening price, closing price, volume, dividends, and more.
 
 ## Technologies Used
-Python
-Libraries:
-Pandas
-NumPy
-Matplotlib
-Scikit-learn
-TensorFlow/Keras
+Python Libraries:
+1. Pandas
+2. NumPy
+3. Matplotlib
+4. Scikit-learn
+5. TensorFlow/Keras
 
 ## Project Workflow
 1. Data Exploration and Cleaning: The dataset is loaded, explored for missing values, and checked for duplicates. Necessary cleaning steps are performed.
