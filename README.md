@@ -142,3 +142,21 @@ Due to limited data, all models exhibited some degree of overfitting. To obtain 
 ## Conclusion
 In conclusion, the XGBoost model showed the highest performance among the models tested, with an accuracy of 86.98% on the test set. However, further optimization and fine-tuning of the models could potentially improve their performance.
 ![](https://github.com/cleavestone/Data-Insights-Hub/blob/main/image_dir/image34.png)
+
+
+## Sentiment Analysis of FIFA 2022 Tweets
+Welcome to this project notebook! In this project, I perform sentiment analysis on tweets related to FIFA 2022. This analysis involves categorizing tweets as positive, negative, or neutral, providing insights into the public's perception and sentiment regarding one of the world's most anticipated sporting events.
+
+## Context
+The FIFA 2022 World Cup captured the attention of millions around the globe, and social media platforms like Twitter were flooded with discussions and reactions to the event. This project aims to perform sentiment analysis on a dataset of 22,000 tweets collected from the first day of FIFA 2022. By understanding the public's sentiment toward the event, we can gain insights into the prevailing opinions and emotions associated with one of the most popular sporting events in the world.
+
+## Project Outline
+1. Text Cleaning & Preprocessing: We utilize the spaCy library for efficient text cleaning and preprocessing to ensure that the data is in a usable form for analysis.
+2. Feature Extraction: GloVe embeddings are employed for robust feature extraction, allowing us to represent the tweet content effectively and capture its semantic meaning.
+3. Exploratory Data Analysis: Word frequency analysis is conducted as part of the exploratory data analysis (EDA) phase to identify important terms and patterns within the tweets.
+4. Machine Learning Models: Several machine learning models are built and evaluated, including XGBoost, Random Forest Classifier, Multinomial Logistic Regression, and K-Nearest Neighbors (KNN) classification.
+5. Hyperparameter Tuning: Grid Search is used to optimize the hyperparameters for the XGBoost model, which achieves the highest performance score among the models tested.
+   
+## Objectives
+1. Sentiment Classification: Accurately categorize tweets as positive, negative, or neutral.
+2. Model Performance: Build and compare multiple machine learning models to determine the most effective approach.
