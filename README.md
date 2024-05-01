@@ -141,3 +141,4 @@ Due to limited data, all models exhibited some degree of overfitting. To obtain 
 
 ## Conclusion
 In conclusion, the XGBoost model showed the highest performance among the models tested, with an accuracy of 86.98% on the test set. However, further optimization and fine-tuning of the models could potentially improve their performance.
+![](https://github.com/cleavestone/Data-Insights-Hub/blob/main/image_dir/image34.png)
