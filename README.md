@@ -30,3 +30,4 @@ TensorFlow/Keras
     
 ## Results
 The LSTM model achieves an RMSE of approximately 86.13, indicating its ability to make accurate predictions.
+!(image.jpg)
