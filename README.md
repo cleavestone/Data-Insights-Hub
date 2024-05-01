@@ -162,3 +162,32 @@ The FIFA 2022 World Cup captured the attention of millions around the globe, and
 2. Model Performance: Build and compare multiple machine learning models to determine the most effective approach.
 
 ![](https://github.com/cleavestone/Data-Insights-Hub/blob/main/image_dir/fifa23.png)
+
+## [Web Scraping BrighterMonday Job Listings](https://github.com/cleavestone/Data-Analytics/blob/main/SCRAPING%20BRIGHTER%20MONDAY%20JOB%20LISTINGS.ipynb) 
+This project aims to collect and analyze job listings data from BrighterMonday, a popular job portal in Kenya. By scraping job listings from BrighterMonday, we gain insights into the job market trends, distribution of jobs by industry and location, as well as the types of job opportunities available.
+
+   
+## Tools and Libraries Used
+1. Python
+2. Requests library for making HTTP requests
+3. BeautifulSoup library for parsing HTML content
+4. Pandas library for data manipulation and analysis
+5. Matplotlib library for data visualization
+   
+## Project Workflow
+1. Downloading Web Pages: We dynamically build URLs to scrap multiple pages of job listings from BrighterMonday and download the HTML content of each page.
+2. Scraping Data: Using BeautifulSoup, we extract relevant information from the HTML content, including job titles, industries, companies, locations, job types, and salary ranges.
+3. Data Cleaning and Exploration: We clean the scraped data by removing duplicates and exploring null values. We also examine unique categories in each column to gain insights into the data.
+4. Visualization: We visualize the distribution of jobs by location and industry using bar charts to better understand the trends in the job market.
+   
+## Data Insights
+1. Location Distribution: Most job listings are concentrated in Nairobi, followed by other major cities like Kisumu and Mombasa. Remote job opportunities are also available, with a smaller proportion compared to location-based jobs.
+2. Industry Distribution: The sales industry has the highest number of job listings, followed by other sectors such as marketing, human resources, and management & business development.
+3. Salary Ranges: The salary ranges vary across different job listings, with some specifying exact figures while others provide a range. This variation reflects the diversity of job opportunities available on BrighterMonday.
+4. 
+## Future Work
+1. Expansion: The project can be expanded to include other job listing websites in Kenya, such as Glassdoor, Indeed, etc., for a more comprehensive analysis of the job market.
+2. Advanced Analysis: Advanced analysis techniques, such as sentiment analysis on job descriptions or predicting salary ranges based on job titles and industries, can be implemented to provide deeper insights.
+   
+## Conclusion
+This project demonstrates the process of web scraping job listings data from BrighterMonday and analyzing it to gain insights into the job market trends in Kenya. The findings can be valuable for job seekers, employers, and policymakers to make informed decisions.
