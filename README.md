@@ -191,3 +191,4 @@ This project aims to collect and analyze job listings data from BrighterMonday, 
    
 ## Conclusion
 This project demonstrates the process of web scraping job listings data from BrighterMonday and analyzing it to gain insights into the job market trends in Kenya. The findings can be valuable for job seekers, employers, and policymakers to make informed decisions.
+![](https://github.com/cleavestone/Data-Insights-Hub/blob/main/image_dir/industry.png)
