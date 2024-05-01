@@ -163,7 +163,7 @@ The FIFA 2022 World Cup captured the attention of millions around the globe, and
 
 ![](https://github.com/cleavestone/Data-Insights-Hub/blob/main/image_dir/fifa23.png)
 
-## [Sales Data Analysis with Power BI](https://github.com/cleavestone/Data-Analytics/blob/main/ECOMMERCE%20PROJECT.sql)
+## [Sales Data Analysis with Power BI](https://github.com/cleavestone/Data-Analytics/blob/main/sales_dasboard.pbix)
 
 In this project, I utilized Power BI to delve deep into sales data, extracting valuable insights and presenting them through intuitive visualizations. The goal was to uncover significant trends, pinpoint top-performing products and categories, and visualize revenue patterns for informed decision-making.
 
