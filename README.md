@@ -163,6 +163,18 @@ The FIFA 2022 World Cup captured the attention of millions around the globe, and
 
 ![](https://github.com/cleavestone/Data-Insights-Hub/blob/main/image_dir/fifa23.png)
 
+## [Sales Data Analysis with Power BI](https://github.com/cleavestone/Data-Analytics/blob/main/ECOMMERCE%20PROJECT.sql)
+
+In this project, I utilized Power BI to delve deep into sales data, extracting valuable insights and presenting them through intuitive visualizations. The goal was to uncover significant trends, pinpoint top-performing products and categories, and visualize revenue patterns for informed decision-making.
+
+## Key Highlights:
+
+1. Comprehensive Data Exploration: Through meticulous data analysis, I thoroughly examined sales data, identifying crucial trends and patterns.
+2. Top-Performing Products and Categories: Leveraging Power BI's capabilities, I uncovered the top-performing products and categories driving revenue growth, providing actionable insights for strategic decision-making.
+3. Interactive Dashboard: The dashboard features slicers, enabling users to effortlessly filter and drill down into the data, empowering them to explore sales insights dynamically.
+   
+![](https://github.com/cleavestone/Data-Insights-Hub/blob/main/image_dir/sales_dasboard1-1.png)
+
 ## [Web Scraping BrighterMonday Job Listings](https://github.com/cleavestone/Data-Analytics/blob/main/SCRAPING%20BRIGHTER%20MONDAY%20JOB%20LISTINGS.ipynb) 
 This project aims to collect and analyze job listings data from BrighterMonday, a popular job portal in Kenya. By scraping job listings from BrighterMonday, we gain insights into the job market trends, distribution of jobs by industry and location, as well as the types of job opportunities available.
 
@@ -223,7 +235,4 @@ The database contains sample data to demonstrate its functionality. Data has bee
 4. Order_Items: 36 records
 5. Reviews: 10 records
 
- [Sales Data Analysis with Power BI](https://github.com/cleavestone/Data-Analytics/blob/main/ECOMMERCE%20PROJECT.sql)
-
-In this project, I utilized Power BI to delve deep into sales data, extracting valuable insights and presenting them through intuitive visualizations. The goal was to uncover significant trends, pinpoint top-performing products and categories, and visualize revenue patterns for informed decision-making.
-![]()
+ 
