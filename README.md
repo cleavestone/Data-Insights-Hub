@@ -71,3 +71,72 @@ Python Libraries
 3. Deploy the model in a production environment for real-time churn prediction.
 ![](https://github.com/cleavestone/Data-Insights-Hub/blob/main/image_dir/feature_import.png)
 Dataset source: [](https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers/download?datasetVersionNumber=1)
+
+
+[Loan Eligibility Prediction Project](https://github.com/cleavestone/Data-Analytics/blob/main/Loans%20application%20.ipynb)
+
+## Problem Statement
+Dream Housing Finance company wants to automate the loan eligibility process based on customer details such as Gender, Marital Status, Education, Number of Dependents, Income, Loan Amount, Credit History, and others. The objective is to predict whether a customer is eligible for a loan amount or not.
+
+## Dataset
+We utilized a dataset provided by Dream Housing Finance company, containing customer details such as:
+Loan_ID
+Gender
+Married
+Dependents
+Education
+Self_Employed
+ApplicantIncome
+CoapplicantIncome
+LoanAmount
+Loan_Amount_Term
+Credit_History
+Property_Area
+Loan_Status
+
+## Exploratory Data Analysis (EDA)
+1. Checked the shape of the dataset
+2. Checked column names and data types
+3. Identified missing values and handled them
+4. Checked for duplicate values
+5. Conducted descriptive statistics on numerical variables
+6. Visualized the distribution of numerical variables
+7. Explored the cardinality of categorical variables
+8. Created a correlation matrix to identify relationships between variables
+9. Checked for outliers in numerical variables
+10. Examined the imbalance in the dataset and handled it by oversampling the majority class
+    
+## Preprocessing
+1. Handled missing values using SimpleImputer
+2. Encoded the target variable using LabelEncoder
+3. Encoded categorical data using LabelEncoder and one-hot encoding
+4. Performed feature scaling using MinMaxScaler
+   
+## Model Building
+We built four different models for this problem:
+
+1. Logistic Regression
+2. XGBoost Classifier
+3. Random Forest Classifier
+4. Gradient Boosting Classifier
+For each model, we trained and evaluated its performance on the test set.
+
+## Model Evaluation
+1. Logistic Regression:
+Training Accuracy: 71.41%,
+Testing Accuracy: 69.82%
+2. XGBoost Classifier:
+Training Accuracy: 99.26%,
+Testing Accuracy: 86.98%
+3. Random Forest Classifier:
+Training Accuracy: 70.67%
+Testing Accuracy: 73.96%
+4. Gradient Boosting Classifier:
+Training Accuracy: 84.15%
+Testing Accuracy: 76.92%
+
+## Cross-Validation
+Due to limited data, all models exhibited some degree of overfitting. To obtain a more accurate score for the XGBoost model, we utilized cross-validation technique. The mean accuracy obtained through cross-validation was approximately 88.50%.
+
+## Conclusion
+In conclusion, the XGBoost model showed the highest performance among the models tested, with an accuracy of 86.98% on the test set. However, further optimization and fine-tuning of the models could potentially improve their performance.
