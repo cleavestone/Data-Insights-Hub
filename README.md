@@ -144,7 +144,7 @@ In conclusion, the XGBoost model showed the highest performance among the models
 ![](https://github.com/cleavestone/Data-Insights-Hub/blob/main/image_dir/image34.png)
 
 
-## Sentiment Analysis of FIFA 2022 Tweets
+## [Sentiment Analysis of FIFA 2022 Tweets](https://github.com/cleavestone/Data-Analytics/blob/main/FIFA_tweets_sentiment_analysis.ipynb)
 Welcome to this project notebook! In this project, I perform sentiment analysis on tweets related to FIFA 2022. This analysis involves categorizing tweets as positive, negative, or neutral, providing insights into the public's perception and sentiment regarding one of the world's most anticipated sporting events.
 
 ## Context
